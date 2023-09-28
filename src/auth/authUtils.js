@@ -1,4 +1,4 @@
-import { notificationApi } from "src/API/axiosApi";
+import { notificationApi } from "src/api/axiosApi";
 import { removeToken } from "./removeToken";
 export const logUserOut = async () => {
   try {
