@@ -1,0 +1,71 @@
+.login {
+    background-color: #161616;
+	header {
+		background-color: #161616;
+		a {
+			color:  white !important;
+		}
+	}
+    .popup{
+        background-color: #f4f4f4;
+        padding: 2rem;
+        min-width: 320px;
+    }
+}
+.d-flex {
+    display: flex;
+}
+
+.h-100 {
+    height: 100%;
+}
+
+.bottom-align {
+    align-items: flex-end;
+}
+
+.mt-auto {
+    margin-top: auto;
+}
+
+.d-grid {
+    display: grid;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.grid-centered {
+    place-items: center;
+}
+
+.full-view-height {
+    height: 100vh;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.ms-auto {
+    margin: auto;
+}
+
+.text-capitalize {
+    text-transform: capitalize;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.toast-notifications {
+    position: fixed;
+    top: 70px;
+    right: 50px;
+}
+
+.mb-1 {
+    margin-bottom: 1rem;
+}

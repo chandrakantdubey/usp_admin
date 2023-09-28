@@ -1,0 +1,1 @@
+export const LIGHT_BACKGROUND = "#f4f4f4"

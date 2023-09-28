@@ -1,0 +1,1 @@
+export const IBM_PLEX_SANS = 'IBM Plex Sans, sans-serif';

@@ -1,0 +1,21 @@
+@use '@carbon/react/scss/colors' as *;
+
+.stat-box {
+	background-color: $gray-10;
+	padding: 1rem 1.5rem;
+	height: 100%;
+}
+.margin-bottom{
+	margin-bottom: 1.75rem;
+}
+.dashboard-tile, .welcome-banner{
+	text-align: center;
+}
+.morphed, .dashboard-tile {
+	border-bottom: 0.1px solid #48abe0;
+	border-right: 0.1px solid #48abe0;
+}
+.morphed:hover, .dashboard-tile:hover{
+	box-shadow: 0 0 2px 0.5px #48abe0;
+	border: none;
+}

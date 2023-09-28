@@ -1,0 +1,27 @@
+$feature-flags: (
+	ui-shell: true,
+	grid-columns-16: false,
+);
+@use '@carbon/react/scss/config' with (
+	$font-path: '@ibm/plex',
+	// $use-flexbox-grid: 'true'
+);
+@use '@carbon/react/scss/fonts';
+@use '@carbon/react/scss/reset';
+@use "@carbon/react";
+@use "@carbon/styles";
+@use "@carbon/grid";
+@use "@carbon/themes";
+
+@use "@carbon/layout";
+@use "@carbon/colors";
+@use "@carbon/feature-flags";
+@use "@carbon/motion";
+@use "@carbon/type";
+// @include grid.flex-grid();
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}

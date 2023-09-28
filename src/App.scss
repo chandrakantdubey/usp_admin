@@ -1,0 +1,33 @@
+//  Pages
+@import "./pages/apis/apis";
+@import "./pages/dashboard/dashboard";
+@import "./pages/chargeBee/chargebee";
+@import "./pages/login/login";
+
+// Components
+@import "./components/buttons/button";
+@import "./components/charts/charts";
+@import "./components/layout/layout";
+@import "./components/headers/headers";
+@import "./components/heading/heading";
+
+@media screen and (max-width: 480px) {
+    .cds--content {
+        padding: 2rem 0rem !important;
+    }
+}
+
+.main {
+    margin-top: 3rem;
+    min-height: 100vh;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
