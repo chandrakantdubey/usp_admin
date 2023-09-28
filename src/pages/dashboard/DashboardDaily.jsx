@@ -3,8 +3,8 @@ import SubscriptionTrendsChart from "src/components/charts/SubscriptionTrendsCha
 import TopProductsChart from "src/components/charts/TopProductsChart";
 import AddonsUtilisationChart from "src/components/charts/AddonsUtilisationChart";
 import MeteredNonMeteredProductsChart from "src/components/charts/MeteredNonMeteredProductsChart";
-import RamGauge from "src/Components/Charts/RamGauge";
-import UserActivityChart from "src/Components/Charts/UserActivityChart";
+import RamGauge from "src/components/charts/RamGauge";
+import UserActivityChart from "src/components/charts/UserActivityChart";
 
 const DashboardDaily = ({ activeUsers }) => {
   return (
